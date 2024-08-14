@@ -25,6 +25,7 @@
     border: 1px solid rgba(255, 255, 255, 0.15);
     padding: 0.5rem 3rem;
     text-align: center;
+    user-select: none;
 }
 .tic-tac-toe{
     width: 90%;
@@ -37,6 +38,7 @@
     grid-template-columns: repeat(3, 1fr);
     aspect-ratio: 1/1;
     margin: 0 auto;
+    user-select: none;
 }
 .box{
     position: relative;
@@ -49,6 +51,7 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    user-select: none;
 }
 
 .box1, .box2, .box4, .box5{
@@ -74,6 +77,7 @@
     padding: 8px 32px;
     cursor: pointer;
     display: none;
+    user-select: none;
 }
 .btn.active{
     display: flex;
