@@ -53,11 +53,10 @@ function checkGameOver(){
             }
             else{
                 answer = "0";
-
-                boxes.forEach((box) => {
-                    box.style.pointerEvents = "none";
-                })
             }
+            boxes.forEach((box) => {
+                box.style.pointerEvents = "none";
+            })
             boxes[position[0]].classList.add("win");
             boxes[position[1]].classList.add("win");
             boxes[position[2]].classList.add("win");
